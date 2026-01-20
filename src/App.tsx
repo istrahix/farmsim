@@ -5,6 +5,7 @@ import Home from './pages/1-Home'
 import NotFound from './pages/NotFound'
 import CustomCursor from './components/CustomCursor'
 import './App.scss'
+
 const COLORS = ['#CE84CF', '#13FFAA', '#1E67C6', '#DD335C']
 function App() {
   const color = useMotionValue(COLORS[0])
