@@ -26,7 +26,7 @@ function App() {
         <div className="relative z-10">
           <main className="max-w-6xl mx-auto px-4 py-12">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/farmsim" element={<Home />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
